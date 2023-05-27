@@ -9,12 +9,12 @@
         "imageUrl": "https://raw.githubusercontent.com/endrl/jellyfin-plugin-media-analyzer/master/images/logo.png",
         "versions": [
             {
-                "version": "0.1.0.0",
-                "changelog": "- See the full changelog at [GitHub](https://github.com/endrl/jellyfin-plugin-media-analyzer/blob/refactor/CHANGELOG.md)",
+                "version": "0.2.0.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/endrl/jellyfin-plugin-media-analyzer/blob/master/CHANGELOG.md)",
                 "targetAbi": "10.9.0.0",
-                "sourceUrl": "https://github.com/endrl/jellyfin-plugin-media-analyzer/releases/download/0.1.0/Jellyfin.Plugin.MediaAnalyzer-0.1.0.zip",
-                "checksum": "76158AB918D40C51FE2D54FB3D92491A",
-                "timestamp": "2023-05-08T06:04:59Z"
+                "sourceUrl": "https://github.com/endrl/jellyfin-plugin-media-analyzer/releases/download/0.2.0/Jellyfin.Plugin.MediaAnalyzer-0.2.0.zip",
+                "checksum": "46AE7D670E8EAFBB6E25ADAF27033DE4",
+                "timestamp": "2023-05-28T06:04:59Z"
             }
         ]
     },

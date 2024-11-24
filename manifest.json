@@ -1,39 +1,20 @@
 [
     {
-        "guid": "80885677-DACB-461B-AC97-EE7E971288AA",
-        "name": "Media Analyzer",
-        "overview": "Automatically detect intros/outros",
-        "description": "Analyzes the audio of television episodes and detects introduction and outro sequences.",
-        "owner": "ConfusedPolarBear,Endrl",
-        "category": "General",
-        "imageUrl": "https://raw.githubusercontent.com/endrl/jellyfin-plugin-media-analyzer/master/images/logo.png",
-        "versions": [
-            {
-                "version": "0.4.0.0",
-                "changelog": "- See the full changelog at [GitHub](https://github.com/endrl/jellyfin-plugin-media-analyzer/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.9.0.0",
-                "sourceUrl": "https://github.com/endrl/jellyfin-plugin-media-analyzer/releases/download/0.4.0/Jellyfin.Plugin.MediaAnalyzer-0.4.0.zip",
-                "checksum": "3ABFCBAE669F155C5CCBDED5C7B7E602",
-                "timestamp": "2023-11-03T06:04:59Z"
-            }
-        ]
-    },
-    {
         "guid": "6B0E323A-4AEE-4B10-813F-1E060488AE90",
         "name": "EDL Creator",
         "overview": "Create .edl files from Media Segments",
         "description": "These files can be used by Kodi and other players to skip content like commercials and are stored next to your media. Therefore you need write access.",
-        "owner": "ConfusedPolarBear,Endrl",
+        "owner": "Intro Skipper (forked from Endrl)",
         "category": "General",
-        "imageUrl": "https://raw.githubusercontent.com/endrl/jellyfin-plugin-edl/master/images/logo.png",
+        "imageUrl": "https://raw.githubusercontent.com/intro-skipper/jellyfin-plugin-edl/master/images/logo.png",
         "versions": [
             {
                 "version": "0.3.0.0",
-                "changelog": "- See the full changelog at [GitHub](https://github.com/endrl/jellyfin-plugin-edl/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/endrl/jellyfin-plugin-edl/releases/download/0.3.0/Jellyfin.Plugin.Edl-0.3.0.zip",
-                "checksum": "31192AE184DA7392694D936A09C88524",
-                "timestamp": "2024-08-31T06:04:59Z"
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-edl/blob/10.10.2/CHANGELOG.md)",
+                "targetAbi": "10.10.2.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-edl/releases/download/0.3.0-2deee62/Jellyfin.Plugin.Edl-0.3.0.zip",
+                "checksum": "e54abc9c689cab445a2bcf529737960e",
+                "timestamp": "2024-11-17T21:14:18Z"
             }
         ]
     },
@@ -42,17 +23,17 @@
         "name": "MediaSegments API",
         "overview": "Create and delete Media Segments",
         "description": "Provide an extended HTTP API to create and delete MediaSegments",
-        "owner": "Endrl",
+        "owner": "Intro Skipper (forked from Endrl)",
         "category": "General",
-        "imageUrl": "https://raw.githubusercontent.com/endrl/jellyfin-plugin-ms-api/master/images/logo.png",
+        "imageUrl": "https://raw.githubusercontent.com/intro-skipper/jellyfin-plugin-ms-api/10.10.2/images/logo.png",
         "versions": [
             {
-                "version": "1.0.0.0",
-                "changelog": "- See the full changelog at [GitHub](https://github.com/endrl/jellyfin-plugin-ms-api/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/endrl/jellyfin-plugin-ms-api/releases/download/1.0.0/Jellyfin.Plugin.MediaSegmentsApi-1.0.0.zip",
-                "checksum": "EE7CA2FEAD260821F077747B19DFEA8D",
-                "timestamp": "2024-08-27T06:04:59Z"
+                "version": "1.0.0",
+                "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-ms-api/blob/10.10.2/CHANGELOG.md)",
+                "targetAbi": "10.10.2.0",
+                "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-ms-api/releases/download/1.0.0-e848fac/Jellyfin.Plugin.MediaSegmentsApi-1.0.0.zip",
+                "checksum": "2a4ca7cac41524ea1c5e33d7533d9bd5",
+                "timestamp": "2024-11-17T21:14:18Z"
             }
         ]
     }
